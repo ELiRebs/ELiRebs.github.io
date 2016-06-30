@@ -1,0 +1,228 @@
+/* my header */
+body{
+
+  background: url(img/tree.png) no-repeat center fixed;
+   background-size: cover;
+
+}
+ header{
+   background-image: url("img/bard1.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+
+
+
+ }
+ header img{
+   height:230px;
+   width: 230px;
+   display: flex;
+   padding-top: 75px;
+   padding-bottom: 60px;
+   align-items: center;
+   justify-content: center;
+   display: block;
+   margin: auto;
+
+ }
+
+ /* navigation */
+
+.home{
+  background-image: url("img/face.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  width:auto;
+  opacity: 0.50;
+
+
+
+
+}
+
+.portfolio{
+  background-image: url("img/grocks.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.50;
+  width:auto;
+
+}
+
+.studies{
+  background-image: url("img/hands.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.50;
+  width:auto;
+
+}
+
+.about{
+  background-image: url("img/about.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.50;
+  width:auto;
+
+
+}
+/*hover for divs*/
+
+.about:hover{
+  opacity: 1.0;
+  filter: alpha(opacity=100);
+  transition-duration: 1s;
+
+}
+.studies:hover{
+  opacity: 1.0;
+  filter: alpha(opacity=100);
+  transition-duration: 1s;
+
+}
+.portfolio:hover{
+  opacity: 1.0;
+  filter: alpha(opacity=100);
+  transition-duration: 1s;
+
+}
+.home:hover{
+  opacity: 1.0;
+  filter: alpha(opacity=100);
+  transition-duration: 1s;
+
+}
+
+
+
+h1{
+  font-size: 30pt;
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+
+}
+
+h1 a{
+
+  display: block;
+   color: #ce8536;
+   text-align: center;
+   text-decoration: none;
+   font-family:Arial, Helvetica, sans-serif;
+   opacity: 0;
+    filter: alpha(opacity=50);
+
+
+}
+
+h1 a:hover{
+  opacity: 1.0;
+  filter: alpha(opacity=100);
+  transition-duration: 1s;
+
+
+}
+
+
+
+/*article*/
+article{
+  margin: 150px;
+
+}
+
+article img{
+  width: 150px;
+  height:150px;
+  display:flex;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 75px;
+  align-items: center;
+  justify-content: center;
+}
+  article h1{
+    font-size: 20pt;
+    text-align: center;
+    color: #ce8536;
+
+  }
+
+@media screen and (max-width:){
+
+}
+
+
+
+
+
+
+
+
+
+/* PORTFOLIO PAGE */
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ce8536;
+    margin-bottom: 30px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 5px 16px;
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+
+li a:hover {
+    background-color: #111;
+}
+.active1 {
+    background-color: #111;
+}
+
+/*portfolio images*/
+
+.title2{
+  font-size: 72pt;
+  text-align: center;
+  color: #ce8536;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+div.pola {
+  width: 50%;
+  background-color:black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+  position: relative;
+  display: inherit;
+  margin-left: auto;
+  margin-right: auto;
+
+
+}
+
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+}
+div.pola p{
+  font-family:Arial, Helvetica, sans-serif;
+  color: white;
+}
